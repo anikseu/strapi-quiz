@@ -5,16 +5,16 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "${process.env.DATABASE_HOST || ''}",
-        "port": "${process.env.DATABASE_PORT}",
-        "database": "${process.env.DATABASE_NAME || ''}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}",
-        "srv": "${process.env.DATABASE_SRV || true}"
+        "host": "mongodb+srv://dbUser:123@123z@cluster0-2tjxa.mongodb.net/test?retryWrites=true",
+        "port": 27017,
+        "database": "QuizDatabase",
+        "username": "dbUser",
+        "password": "123@123z",
+        "srv": true
       },
       "options": {
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
-        "ssl": "${process.env.DATABASE_SSL || true}"
+        "authenticationDatabase": "admin",
+        "ssl": true
       }
     }
   }
