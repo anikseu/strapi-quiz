@@ -5,7 +5,8 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "mongodb+srv://dbUser:123@123z@cluster0-2tjxa.mongodb.net/test?retryWrites=true",
+        "uri":"mongodb+srv://dbUser:123@123z@cluster0-2tjxa.mongodb.net/test?retryWrites=true",
+        "host": "cluster0-2tjxa.mongodb.net",
         "port": 27017,
         "database": "QuizDatabase",
         "username": "dbUser",
