@@ -1,5 +1,5 @@
 {
-  "host": "https://ancient-reaches-87789.herokuapp.com",
+  "host": "localhost",
   "port": 1337,
   "proxy": {
     "enabled": false
